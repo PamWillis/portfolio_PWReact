@@ -25,6 +25,7 @@ const projects = [
 
 const ProjectList = () => {
     return (
+        <section id='projectList'>
         <Container
         sx={{
           margin: '0 auto',
@@ -82,6 +83,7 @@ const ProjectList = () => {
                 ))}
             </div>
         </Container>
+        </section>
     );
 };
 
