@@ -32,7 +32,7 @@ const Contact = () => {
 
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me</h1>
-                <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
+                <h3 className="contactDesc">Please fill out the form below to discuss any work opportunities.</h3>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Name' name="user_name" />
                     <input type="email" className="email" placeholder='Your Email' name="user_email" />
@@ -40,9 +40,9 @@ const Contact = () => {
                     <input type="submit" value="Send" className='submitBtn' />
                     <div className="links">
                         <a href={linked} target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-linkedin icon"></i></a>
+                            <i className="fa fa-linkedin iconli"></i></a>
                         <a href={github} target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-github icon"></i>
+                            <i className="fa fa-github icongit"></i>
                         </a>
                     </div>
                 </form>
