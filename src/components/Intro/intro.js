@@ -2,6 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from '../../assets/splash.png';
 import btnImg from '../../assets/hireme.png';
+import Person from '../../assets/person.png'
 
 const Intro = () => {
     const scrollToContact = () => {
@@ -10,6 +11,7 @@ const Intro = () => {
 
     return (
         <section id="intro">
+             <img src={Person} alt="me" className="person" />
             <div className="introContent">
                 <span className="hello">Hello,</span>
                 <span className="introText">I'm <span className="introName">Pam Willis</span> <br />Software Engineer</span>
@@ -18,7 +20,9 @@ const Intro = () => {
                     <img src={btnImg} alt="Hire" className='btnImg'/> Hire Me
                 </button>
             </div>
+           
             <img src={bg} alt="Profile" className="bg" />
+        
         </section>
     );
 }
