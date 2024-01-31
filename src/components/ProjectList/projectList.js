@@ -63,23 +63,23 @@ const ProjectList = () => {
                         letterSpacing: '0.01em',
                         '@media (max-width: 600px)': {
                             fontSize: '2rem',
-                            margin: '1.6rem 0 .3rem', // Apply 1rem top margin on screens with max width 600px (typical for mobile devices)
+                            margin: '1.6rem 0 .3rem',
                         },
                     }}
                 >
                     Portfolio
                 </Typography>
                 <Typography
-
                     align="center"
                     sx={{
                         display: 'block',
                         fontSize: '1.1em',
                         fontWeight: '300',
                         maxWidth: '45rem',
-                        '@media (max-width: 600px)': {
-                            fontSize: '.9rem',
-                        }
+                        '@media (max-width: 780px)': {
+                            fontSize: '1.1rem',
+                            maxWidth: '35rem',
+                        },
                     }}
                 >
                     I am excited to bring my skills and graphic experience to help businesses achieve their goals and create a strong online presence.

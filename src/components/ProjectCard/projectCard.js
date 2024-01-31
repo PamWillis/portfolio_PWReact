@@ -7,7 +7,9 @@ const ProjectCard = ({ title, description, items, imageUrl, deployLink, githubLi
     <Card style={{ 
       marginBottom: '1.5rem',
       maxWidth: '300px',
-      margin: '.25rem',
+      margin: '.5rem',
+      backgroundColor: 'rgb(50, 50, 50)',
+      border: '1px solid rgb(90, 90, 90)'
        }}>
       <a href={deployLink} target="_blank" rel="noopener noreferrer">
         <CardMedia
@@ -18,24 +20,29 @@ const ProjectCard = ({ title, description, items, imageUrl, deployLink, githubLi
         />
       </a>
       <CardContent>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" 
+        style={{ fontSize: 16, fontWeight: 'bold', lineHeight: 1.2, backgroundColor: 'blue', margin: 0, color: 'white', padding: 6 }}>
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary"
+        style={{color: 'white', margin: 5}}>
           {description}
         </Typography>
         <div>
-          <List>
+          <List
+          style={{ color: 'white', lineHeight: 1}}>
             {items.map((item, index) => (
               <ListItem key={index}>{item}</ListItem>
             ))}
           </List>
         </div>
-        <div style={{ marginTop: '1rem' }}>
-    <Button variant="outlined" color="primary" href={githubLink} target="_blank" rel="noopener noreferrer">
+        <div style={{ marginTop: '.5rem' }}>
+    <Button variant="outlined" color="primary" href={githubLink} target="_blank" rel="noopener noreferrer"
+    style={{ backgroundColor: 'rgb(40, 40, 40)', color: 'lightBlue' }}>
       GitHub
     </Button>
-    <Button variant="outlined" color="secondary" href={deployLink} target="_blank" rel="noopener noreferrer" style={{ marginLeft: '0.5rem' }}>
+    <Button variant="outlined" href={deployLink} target="_blank" rel="noopener noreferrer" 
+    style={{ backgroundColor: 'rgb(40, 40, 40', color: 'lightBlue', marginLeft: '0.5rem' }}>
       Deployed Site
     </Button>
   </div>

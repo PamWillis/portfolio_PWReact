@@ -74,7 +74,11 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-
+  @media (max-width: 780px) {
+    .contactDesc {
+        font-size: 1.1em;
+    }
+  }
   @media (max-width: 600px) {
 #contactPage {
     max-width: 30rem;

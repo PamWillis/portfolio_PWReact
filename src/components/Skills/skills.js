@@ -17,9 +17,12 @@ const Skills = () => {
         <section id='skills'>
             <span className="title">The Pursuit</span>
             <div className='flex'>
-                <span className="intro left-justify">I transitioned from a <strong>Graphic Artist</strong> in flexible packaging to Full-Stack web development, gaining expertise in <strong>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and GraphQL</strong> through intensive training at the University of North Carolina Bootcamp. This journey not only enriched my technical skills but also instilled a collaborative mindset. The program emphasized the significance of teamwork in tackling the intricacies of full-stack projects.</span>
+                <span className="intro left-justify">I transitioned skills from a <strong>Graphic Artist</strong> in flexible packaging to Full-Stack web development, gaining expertise in <strong>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and GraphQL</strong> through intensive training at the University of North Carolina Bootcamp. This journey not only enriched my technical skills but also instilled a collaborative mindset. The program emphasized the significance of teamwork in tackling the intricacies of full-stack projects.</span>
                 <span className="intro left-justify">Prepared to contribute my skills and learn from others, I am well-equipped to thrive in collaborative work settings. My unique blend of technical proficiency and a problem-solving mindset, coupled with a commitment to continuous learning, positions me to take on diverse challenges in the ever-evolving field of web development.</span>
             </div>
+            <div><h2 className='arrowtext'>Skills</h2></div>
+            <div className="arrow down"></div>
+
 
             <div className="skillContainer">
                 <div className="skillBar">
@@ -44,8 +47,8 @@ const Skills = () => {
                 </div>
                 <div className="skillBar">
                     <div className='vertical_images floatLeft'>
-                    <img src={Tailwinds} alt="Tailwinds" className="skillBarImg" />
-                    <img src={Bootstrap} alt="Bootstrap" className="skillBarImg" />
+                        <img src={Tailwinds} alt="Tailwinds" className="skillBarImg" />
+                        <img src={Bootstrap} alt="Bootstrap" className="skillBarImg" />
                     </div>
                     <div className="skillBarText left-justify">
                         <h2>Tailwinds & Bootstrap</h2>
@@ -54,8 +57,8 @@ const Skills = () => {
                 </div>
                 <div className="skillBar">
                     <div className='vertical_images floatLeft'>
-                    <img src={SQL} alt="Tailwinds" className="skillBarImg" />
-                    <img src={Mongo} alt="Bootstrap" className="skillBarImg" />
+                        <img src={SQL} alt="Tailwinds" className="skillBarImg" />
+                        <img src={Mongo} alt="Bootstrap" className="skillBarImg" />
                     </div>
                     <div className="skillBarText left-justify">
                         <h2>SQL & MongoDB</h2>
@@ -67,12 +70,12 @@ const Skills = () => {
                         <img src={Illustrator} alt="Illustrator" className="skillBarImg mt5" />
                         <img src={Photoshop} alt="Illustrator" className="skillBarImg mt5" />
                         <img src={InDesign} alt="InDesign" className="skillBarImg mt5" />
-                        </div>
-                        <div className="skillBarTextNoIcon">
+                    </div>
+                    <div className="skillBarTextNoIcon">
                         <h2 className='mt2'>Adobe Creative Suite</h2>
                         <p>Illustrator, Photoshop and InDesign.</p>
-                        </div>
-                    
+                    </div>
+
                 </div>
             </div>
         </section>
