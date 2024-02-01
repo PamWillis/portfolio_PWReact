@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## <span style="color: Yellow; font-size: 2.75rem;">portfolio_PWReact</span>  
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+    - This project was created to highlight the use of react components and the ease of how it can hide and show components to easily map through the pages.
+    - The challenge inspired more study within react, design and layout. Looking into React it was interesting to find all that it could do and how javascript breaks down exactly what will show.
+    - React creates the ability to keep the header and footer the same while changing out the body for each page. This saves on coding and therefore speeds up the site.
+    - MUI material, CSS and HTML are treated differently in React and are better organized to be particular for each component. This project also gave a better understanding of the supporting javascript needed to change out the particular items. 
+    www.emailjs was set up to handle the contact information.
+    
 
-## Available Scripts
+## &nbsp;&nbsp;&nbsp;  Installation  
+    This project can be downloaded from github, run npm i to get started and then run "npm run start" to run locally.
 
-In the project directory, you can run:
+## &nbsp;&nbsp;&nbsp;  Usage  
+    This site can be found at: 
+[Click here](https://pamwillis.netlify.app) 
 
-### `npm start`
+## &nbsp;&nbsp;&nbsp;  Contributing  
+    This project was started with https://www.youtube.com/watch?v=4ag1LsgIUc0&t=1874s as a learning tool to better understand the interactions.
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# License
+The MIT License  https://opensource.org/licenses/MIT
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Questions
+please contact me with any questions:  
+GitHub: https://github.com/PamWillis  
+Email: pwillisop@yahoo.com

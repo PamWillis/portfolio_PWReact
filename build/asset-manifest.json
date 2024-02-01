@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05829fd1.css",
+    "main.js": "/static/js/main.1bcb6a5d.js",
+    "js": "/d660a81aa0d9ce6a060d.js",
+    "static/media/splash.png": "/static/media/splash.e9f9844d5171ea3c8e8b.png",
+    "static/media/Portrait.png": "/static/media/Portrait.eb9c140a98b4372a14ae.png",
+    "static/media/Recipe.png": "/static/media/Recipe.ed863843d278efcbb202.png",
+    "static/media/eventcenter.png": "/static/media/eventcenter.7e8f9dc7dc38db0bf6bf.png",
+    "static/media/PAWtextEditor.png": "/static/media/PAWtextEditor.18c0e0c69246b13b604b.png",
+    "static/media/react_logo.png": "/static/media/react_logo.5280773e27d289077b97.png",
+    "static/media/tailwinds_logo.png": "/static/media/tailwinds_logo.f537bec7e4a1e5057ef1.png",
+    "static/media/javascript_logo.png": "/static/media/javascript_logo.c203616c6a4f4f7a7e6a.png",
+    "static/media/Illustrator_logo.png": "/static/media/Illustrator_logo.1d5991d9bcb0a4ffaa59.png",
+    "static/media/Photoshop_logo.png": "/static/media/Photoshop_logo.a78700f601603f2ba39e.png",
+    "static/media/SQL_logo.png": "/static/media/SQL_logo.0d026cd161d22861a797.png",
+    "static/media/bootstrap_logo.png": "/static/media/bootstrap_logo.ebc4eddb1416e93fc21e.png",
+    "index.html": "/index.html",
+    "main.05829fd1.css.map": "/static/css/main.05829fd1.css.map",
+    "main.1bcb6a5d.js.map": "/static/js/main.1bcb6a5d.js.map",
+    "js.map": "/d660a81aa0d9ce6a060d.js.map"
+  },
+  "entrypoints": [
+    "4958ab2c536d559a826f.js",
+    "d660a81aa0d9ce6a060d.js",
+    "static/css/main.05829fd1.css",
+    "static/js/main.1bcb6a5d.js"
+  ]
+}
