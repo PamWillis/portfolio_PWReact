@@ -29,7 +29,7 @@ const Skills = () => {
                     <img src={Javascript} alt="Javascript" className="skillBarImg floatLeft" />
                     <div className="skillBarText left-justify">
                         <h2>Javascript</h2>
-                        <p>This is a demo text, you can write your own content here.</p>
+                        <p>Express Node.js is used to create a dynamic and interactive web solution</p>
                     </div>
                 </div>
                 <div className="skillBar">

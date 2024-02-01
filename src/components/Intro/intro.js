@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from '../../assets/splash.png';
 import btnImg from '../../assets/hireme.png';
-import Person from '../../assets/person.png'
+import Person from '../../assets/Portrait.png'
 
 const Intro = () => {
     const scrollToContact = () => {
